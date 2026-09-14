@@ -115,18 +115,9 @@ p { margin: 0 0 1em; max-width: 62ch; }
 .site-header.is-scrolled .header-inner { height: 68px; }
 
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px; height: 42px;
-  border-radius: 10px;
-  background: linear-gradient(155deg, var(--color-blue), var(--color-blue-light));
-  color: var(--color-white);
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: .82rem;
-  letter-spacing: .02em;
+.brand-logo {
+  width: 46px; height: 46px;
+  object-fit: contain;
 }
 .brand-text { color: var(--color-white); font-size: 1.02rem; }
 .brand-text strong { font-family: var(--font-display); font-weight: 600; }
